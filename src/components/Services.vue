@@ -5,7 +5,7 @@
        </div>
        <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 mt-14">
             <div v-for="data in Serdata" :key="data">
-                <Card :imgsrc="data.imgsrc" :title="data.title"/>
+                <Card :imgsrc="data.imgsrc" :title="data.title" :description="data.description"/>
             </div>
        </div>
     </div>
