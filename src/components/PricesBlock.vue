@@ -1,7 +1,7 @@
 <template>
 
       <!-- Each block is wrapped inside a flex container with a fixed height -->
-      <div class="bg-white shadow-lg flex flex-col h-full">
+      <div class=" shadow-lg flex flex-col h-full price-block" >
         <div class="p-9 flex-grow">
           <h2 class="text-2xl md:text-2xl text-slate-700 my-1 font-bold">{{ title }}</h2>
           <p class="text-2xl md:text-3xl text-slate-700 my-1 font-bold mt-6">{{ prices }}</p>
@@ -23,5 +23,13 @@
 </script>
 
 <style scoped>
-
+.price-block:nth-child(2n) h2 {
+    color: white !important;
+}
+.price-block:nth-child(2n) p {
+    color: white !important;
+}
+.price-block:nth-child(2n) li {
+    color: white !important;
+}
 </style>
