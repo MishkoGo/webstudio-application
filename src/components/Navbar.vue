@@ -9,6 +9,7 @@
       <nav class="flex flex-col md:flex-row p-5 gap-4 md:gap-10 px-6 md:static absolute bg-white md:bg-transparent shadow-md md:shadow-none md:w-auto my-7 md:my-0 left-0 w-full duration-500" :class="[open ? 'top-0' : 'top-[-390%]']">
         <router-link to="/" class="text-slate-500 py-5 hover:text-slate-700 text-xl font-medium">Home</router-link>
         <router-link to="/about" class="text-slate-500 py-5 hover:text-slate-700 text-xl font-medium">About</router-link>
+        <router-link to="/projects" class="text-slate-500 py-5 hover:text-slate-700 text-xl font-medium">Projects</router-link>
         <router-link to="/services" class="text-slate-500 py-5 hover:text-slate-700 text-xl font-medium">Services</router-link>
         <router-link to="/prices" class="text-slate-500 py-5 hover:text-slate-700 text-xl font-medium">Prices</router-link>
       </nav>

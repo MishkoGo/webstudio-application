@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import Services from '../components/Services.vue'
 import Prices from '@/components/Prices.vue'
 import About from '@/components/About.vue'
+import Projects from '@/components/Projects.vue'
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -18,6 +19,11 @@ const router = createRouter({
             component: About
         },
         { 
+            path: '/projects',
+            name: 'projects',
+            component: Projects
+        },
+        { 
             path: '/services',
             name: 'services',
             component: Services
@@ -27,11 +33,7 @@ const router = createRouter({
             name: 'Prices',
             component: Prices
         },
-        { 
-            path: '/services',
-            name: 'services',
-            component: Services
-        },
+        
     ]
 })
 
